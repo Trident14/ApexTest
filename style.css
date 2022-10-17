@@ -1,0 +1,144 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#footer{
+  margin-top:auto;
+}
+.map{
+  margin-right: 50rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+.cr-img{
+  width: 92rem;
+    height: 43rem;
+}
+.carousel-item{
+  height: 32rem;
+  background: #777;
+  color: white;
+  position: relative;
+}
+.container{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right:0;
+  padding-bottom:50px;
+}
+.flex-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  padding-left: 1rem;
+}
+@media (min-width: 600px) {
+  .flex-container { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .flex-container { grid-template-columns: repeat(5, 1fr); }
+}
+.flex-cont {
+  display: flex;
+  justify-content: center;
+
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/* .       . . . . . ..................     ...  . . */
+
+.card{
+  height: auto;
+ max-height:299px;
+ width: 200px; /* ⬅ Size ~ Small (width: 200px), Medium (width: 225px), Large (width: 250px) */
+ overflow: hidden;
+ background-color: #FFFFFF;
+ border-radius: 10px;
+ box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+ text-align: center;
+ -webkit-transition: .1s ease-in-out;
+ transition: .1s ease-in-out;
+ margin-right: 50px;
+}
+
+ .card:last-of-type{
+   margin-right: 0px;
+ }
+
+ .card:hover{
+   margin-top: -25px;
+   box-shadow: 0 15px 20px rgba(0,0,0,0.1);
+ }
+
+.card_Banner{
+ height: 100px;
+ width: inherit;
+ padding-top: 35px;
+ background-color: #FAFAFA;
+ background-size: cover;
+ background-position: center;
+}
+
+ .c_01 .card_Banner{
+   /* ⬇ Photo by Gem & Lauris RK on Unsplash */
+   background-image: url("https://images.unsplash.com/photo-1505909182942-e2f09aee3e89?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5257b32f41a8a970f1b644c88174cee5&auto=format&fit=crop&w=1352&q=80");
+ }
+
+ .c_02 .card_Banner{
+   /* ⬇ Photo by Samuel C. on Unsplash */
+   background-image: url("https://images.unsplash.com/photo-1535106356142-e3169a8b17d2?ixlib=rb-0.3.5&s=0fce1e3c86e04e07abf7305a6fbfaf01&auto=format&fit=crop&w=668&q=80");
+ }
+
+.card_Avatar{
+ height: 100px;
+ width: 100px;
+ margin: auto auto;
+ background-size: cover;
+ background-position: center;
+ background-color: #F1F1F1;
+ border: 3px solid #FFFFFF;
+ border-radius: 100%;
+ box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+ .c_01 .card_Avatar{
+   /* ⬇ Image from Twitter (___@cabrown___) */
+   background-image: url("https://drive.google.com/open?id=0B1dFFvTl1M-8STVEdE5FelVpUkJRQmNHZFBjamZhWmU3anpv");
+ }
+
+ .c_02 .card_Avatar{
+   /* ⬇ Photo by Ayo Ogunseinde on Unsplash */
+   background-image: url("https://drive.google.com/open?id=0B1dFFvTl1M-8STVEdE5FelVpUkJRQmNHZFBjamZhWmU3anpv");
+ }
+
+
+
+
